@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Lunar Lander</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel='stylesheet' media='screen and (min-width: 960px)' href='css/d.css'>
+ <link rel='stylesheet' media='screen and (max-width: 961px)' href='css/m.css'>
+ <script src="js/js.js"></script>
+</head>
+
+<body background="img/espacio.png">
+
+
+
+ <div id="nave">
+	<img id="naveapagada" src="img/nave.png" alt="img nave">
+ </div>
+ 
+ 
+ 
+ <div class="a">
+ 
+ <div id="indicadores"></div>
+	<table id="menu">
+					<tr>
+						<th>MENU</th>
+					</tr>
+					<tr>
+						<td><a href="Instrucciones.html" onclick="return confirm('Saliendo del juego');">Instrucciones</a></td>
+					</tr>
+					<tr>
+						<td><a href="Acerca.html" onclick="return confirm('Saliendo del juego');">Acerca de...</a></td>
+					</tr>	
+					<tr>
+						<th>INDICADORES DE LA NAVE</th>
+					</tr>
+					<tr>
+						<td>Speed <span id="velocidad">0</span> m/s</td>
+					</tr>
+					<tr>
+						<td>Fuel <span id="fuel">100</span> l</td>
+					</tr>
+					<tr>
+						<td>Height <span id="altura">10</span> m</td>
+					</tr>
+					
+					
+				</table>
+				
+ </div>
+ 
+ <div class="b"></div>
+ <div class="c">
+ <div id="opciones"></div>
+	<table id="cpanel">
+					<tr>
+						<th>CUADRO DE MANDOS</th>
+					</tr>
+					<tr>
+						<td><button id="facil">Fácil</button><button id="motor">Motor ON</button><button id="dificil">Difícil</button></td>
+					</tr>
+					<tr>
+						<td><center><input type="button" class="button1" value="JUGAR" onclick="window.location.reload(true)"></center></td>
+					</tr>
+				</table>
+ </div>
+ <div class="d">
+	<img src="img/luna.png" width="100%" alt="img luna">
+ </div>
+</body>
+</html>
