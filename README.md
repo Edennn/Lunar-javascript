@@ -21,3 +21,5 @@ Y aquí el enlace a rawgit:
 https://rawgit.com/Edennn/Lunar-javascript/master/index.html
 
 Las imágenes estan tratadas en https://tinypng.com/.
+
+También he creado un nuevo "**_Branch_**" donde están los archivos con el código minimificado.
