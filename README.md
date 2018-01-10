@@ -12,11 +12,11 @@ El apartado de javascript lo he iniciado en base al esqueleto aportado en el enu
 
 El único problema que veo y del cual no estoy seguro de que sea fallo mío, es que al pasar el repositorio por rawgit para que sea visible en internet, la página da un error cuando entro en uno de los links y pulso el link creado para volver al inicio, es decir, entro al link "**_Instrucciones_**" sin problema, pero una vez ahi cuando pulso en el link que he creado yo de volver al inicio, la página tira un error "**_404 not found_**". El link está bien creado (<a href="index.html">Volver al inicio</a>) ya que es un enlace que apunta a otro html dentro de la misma ubicación, asique imagino que será un problema de rawgit.
 
-Aquí está la validación de la página:
+- Aquí está la validación de la página:
 
 https://validator.w3.org/nu/?doc=https%3A%2F%2Frawgit.com%2FEdennn%2FLunar-javascript%2Fmaster%2Findex.html
 
-Y aquí el enlace a rawgit:
+- Y aquí el enlace a rawgit:
 
 https://rawgit.com/Edennn/Lunar-javascript/master/index.html
 
